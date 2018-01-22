@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TestOnceMavenController" />
+        <module name="TestOneMavenController" />
+        <module name="TestOneMavenDao" />
+        <module name="TestOneMavenModel" />
+        <module name="TestOneMavenService" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TestOnceMavenController" target="1.8" />
+      <module name="TestOneMaven" target="1.8" />
+      <module name="TestOneMavenController" target="1.8" />
+      <module name="TestOneMavenDao" target="1.8" />
+      <module name="TestOneMavenModel" target="1.8" />
+      <module name="TestOneMavenService" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
